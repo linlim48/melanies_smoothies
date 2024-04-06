@@ -44,5 +44,5 @@ if ingredient_list:
         
 # New section to display Fruityvice nutrition information
 import requests
-fruityvice_response = request.get("https://fruityvice.com/api/fruit/watermelon')
+fruityvice_response = request.get('https://fruityvice.com/api/fruit/watermelon')
 st.txt(fruityvice_response)
